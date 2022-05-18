@@ -1,0 +1,284 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #f1f2f6;
+}
+.LOGO {
+  height: 62px;
+  display: inline-block;
+}
+.barra-nav {
+  width: 100%;
+  position: fixed;
+  background: #321d50;
+  font-weight: 700;
+  color: white;
+  font-size: 25px;
+  z-index: 90;
+}
+.botao-barra {
+  background-color: #321d50;
+  color: #f1f2f6;
+  padding: 12px;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  height: 62px;
+}
+.item-barra {
+  position: relative;
+  display: inline-block;
+}
+.item-barra-logo {
+  position: relative;
+  display: inline-block;
+  height: 62px;
+  vertical-align: middle;
+}
+.cascata {
+  display: none;
+  position: absolute;
+  background-color: #f1f2f6;
+  min-width: fit-content;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.cascata a {
+  color: #321d50;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+}
+.item-barra:hover .botao-barra {
+  background: #758bfd;
+  color: #f1f2f6;
+}
+.item-barra:hover .cascata {
+  display: block;
+}
+.cascata a:hover {
+  background: #ffffff;
+}
+.principal {
+  padding: 2.4% 3.5% 0 3.5%;
+  align-items: center;
+}
+.apresentacao {
+  font-size: 35px;
+  color: #321d50;
+}
+.descricao {
+  font-weight: 400;
+  color: #321d50;
+  font-size: 22px;
+  text-align: justify;
+}
+.titulo {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #321d50;
+}
+footer {
+  height: 200px;
+  width: 100%;
+  background: #758bfd;
+  margin-top: 5%;
+  padding: 40px 0;
+  box-sizing: border-box;
+}
+.rodape {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+}
+.img-rodape {
+  height: 60px;
+}
+footer div {
+  margin: 0 auto;
+  width: 10 0%;
+  display: flex;
+  justify-content: space-around;
+}
+.gold,
+.silver,
+.bronze,
+p {
+  margin: 0;
+}
+.gold {
+  color: gold;
+  font-weight: 700;
+}
+.silver {
+  color: silver;
+  font-weight: 700;
+}
+.bronze {
+  color: #cd7f32;
+  font-weight: 700;
+}
+.achiever {
+  color: rgb(171, 35, 112);
+  font-weight: 700;
+}
+.premios {
+  display: flex;
+}
+.premios div {
+  margin: 0 auto;
+}
+.premios h3 {
+  font-size: 25px;
+}
+.premios p {
+  font-size: 20px;
+}
+h1 {
+  color: #321d50;
+}
+.pimso {
+  display: flex;
+  vertical-align: bottom;
+}
+.ice,
+.sismo {
+  height: 20vh;
+}
+.aviso {
+  font-size: 10px;
+}
+.iymc {
+  height: 15vh;
+}
+.work {
+  height: 50vh;
+}
+.work-div {
+  display: flex;
+  justify-content: space-around;
+}
+.rede_sociais {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+/**NOVA PÁGINA INICIAL**/
+.mapa-mundi {
+  align-items: center;
+  background-image: url("img/mapa.jpg");
+  background-position: center;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  height: fit-content;
+  height: 650px;
+}
+.ola {
+  font-size: 65px;
+  text-align: center;
+}
+.mapa-mundi img {
+  width: 30%;
+}
+.ola2 {
+  color: #321d50;
+  font-size: 45px;
+  text-align: center;
+}
+.espaço {
+  width: 100%;
+  height: 62px;
+}
+.livros {
+  align-items: center;
+  background-image: url("img/livros.jpg");
+  background-position: center;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  height: fit-content;
+  height: 302;
+}
+.livros-texto {
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+}
+.visao {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.visao h1 {
+  padding: 50px 10px 50px 100px;
+  font-size: 40px;
+  text-align: center;
+}
+.visao img {
+  width: 50%;
+}
+.imgs {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+}
+.parcerias {
+  margin-top: 50px;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.parcerias img {
+  width: 15%;
+  margin: 0;
+}
+.parcerias h1 {
+  width: 85%;
+  padding: 50px 0;
+  font-size: 40px;
+  text-align: center;
+}
+.inflamar {
+  background-color: #321d50;
+  color: #ff8600;
+}
+.inflamar h1 {
+  color: #ff8600;
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+}
+.redes {
+  color: #321d50;
+  text-align: center;
+  font-size: 30px;
+}
+.redes h1 {
+  font-size: 40px;
+  text-align: center;
+  display: block;
+}
+.insta img {
+  width: 200px;
+}
+.insta {
+  width: fit-content;
+}
+.redes2 {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
