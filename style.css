@@ -282,3 +282,31 @@ h1 {
   display: flex;
   justify-content: space-around;
 }
+@media(max-width: 768px){
+  .barra-nav{
+    display: flex;
+    flex-direction: column;
+    position: initial;
+    font-size: 15px;
+    text-align: center;
+  }
+  .botao-barra{
+    font-size: 15px;
+    height: auto;
+  }
+  .item-barra:hover{
+    background: #321d50;
+  }
+  .cascata a{
+    font-size: 15px;
+    color: #f1f2f6;
+  }
+  .cascata{
+    position: initial;
+    text-align: center;
+    margin: 0 auto;
+    background: #321d50;
+    color: #f1f2f6;
+    box-shadow: none;
+  }
+}
