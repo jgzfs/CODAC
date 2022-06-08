@@ -289,6 +289,7 @@ h1 {
     position: initial;
     font-size: 15px;
     text-align: center;
+    margin: 0%;
   }
   .botao-barra{
     font-size: 15px;
@@ -308,5 +309,96 @@ h1 {
     background: #321d50;
     color: #f1f2f6;
     box-shadow: none;
+  }
+  .espaço{
+    display: none;
+  }
+  .mapa-mundi{
+    background: #f1f2f6;
+    padding: 2px;
+    height: auto;
+    margin: 0;
+    position: initial;
+  }
+  .mapa-mundi img{
+    display: none;
+  }
+  .ola{
+    font-size: 30px;
+  }
+  .ola2{
+    font-size: 25px;
+  }
+  .livros{
+    height: fit-content;
+    background-repeat: repeat-y;
+  }
+  .livros-texto{
+    font-size: 20px;
+  }
+  .visao h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+  }
+  .visao{
+    flex-direction: column;
+  }
+  .imgs{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .imgs img{
+    width: 40%;
+    display: inline-block;
+  }
+  .parcerias{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .parcerias h1{
+    order: -1;
+    margin: 0;
+  }
+  .parcerias h1{
+    width: 100%;
+    font-size: 20px;
+  }
+  .parcerias img{
+    display: none;
+}
+  .inflamar h1{
+    font-size: 20px;
+  }
+  .insta img{
+    width: 30%;
+  }
+  .insta p{
+    font-size: 15px;
+  }
+  .redes2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .rodape{
+    font-size: 10px;
+   }
+  .img-rodape{
+    width: 50%;
+    margin: 5% 0;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  footer div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 }
